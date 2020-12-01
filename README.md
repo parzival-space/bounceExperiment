@@ -65,4 +65,4 @@ Live Demo: <a href="https://dev-parzival.github.io/bounceExperiment/bounce.html"
 
 ---
 
-<img src="https://dev-parzival.github.io/bounceExperiment/assets/demo.gif" />
+<img src="https://dev-parzival.github.io/bounceExperiment/assets/demo.gif" alt="DEMO GIF"/>
