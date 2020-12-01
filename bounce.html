@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bounce Experiment</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            background: #303030;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+
+<script>
+    document.addEventListener("readystatechange", () => {
+        (document.readyState === "complete") ? (() => {
+            var l = document.createElement("script");
+            l.setAttribute("src", "bounce.js");
+            l.setAttribute("type", "text/javascript");
+
+            console.log(`%c[Client]`, `color: cyan;`, `injecting bounce.js...`);
+
+            document.head.appendChild(l);
+        })()
+            :
+            (() => console.log(`%c[Client]`, `color: cyan;`, `ignoring detected document state '${document.readyState}'`))();
+    });
+</script>
+
+</html>
