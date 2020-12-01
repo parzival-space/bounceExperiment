@@ -260,7 +260,7 @@ console.log(`%c[Client]`, `color: cyan;`, `bounce.js loaded!`);
             _.fillText(`Press SHIFT+F9 to toggle wave mode.`, 4, 160);
             
             _.fillText(`Press CTRL+F2 to toggle ball collision.`, 4, 182);
-            _.fillText(`Press CTRL+F8 to toggle ball slowdown.`, 4, 198);
+            _.fillText(`Press CTRL+F8 to toggle crazy mode.`, 4, 198);
             _.fillText(`Press CTRL+F9 to toggle splitters.`, 4, 214);
 
             _.fillStyle = "lime";
