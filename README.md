@@ -5,7 +5,7 @@ This is just another experiment.
 
 I wasted to much time on this one. At least you can use it as some kind of browser benchmark maybe?
 
-Live Demo: <a href="https://malte-linke.github.io/bounceExperiment/bounce.html">Click here!</a>
+Live Demo: <a href="https://parzival-space.github.io/bounceExperiment/bounce.html">Click here!</a>
 </p>
 
 <h2>Controls</h2>
